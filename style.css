@@ -1,0 +1,107 @@
+
+
+body {
+	background-color: #1e212d ; 
+	color : #A288A6;
+	text-align: center; 
+	font-size: 18px
+}
+
+h1, h2 {
+	color : #96BB7C;
+}
+
+h1, h2 {
+	font-family: 'Lobster', cursive;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 50px
+
+}
+
+h2 {
+	font-size: 35px
+}
+
+h3 { 
+	color: #CA3C25;
+	font-size : 28px;
+}
+
+p, h3 {
+	font-family: 'Arima Madurai', cursive;
+}
+
+img {
+ width: 300px;
+	height: 300px;
+}
+
+.other, .Théatre, .cultures {
+	border-radius: 50%
+}
+
+.other, .cultures {
+	width : 200px;
+	height: auto;
+}
+
+#debut {
+	border: 10px solid #CA3C25;
+	width: 450px;
+	height: 450px;
+}
+
+a {
+	text-decoration: none;
+	color : #CA3C25; 
+	font-weight: 20px
+
+}
+
+a:hover {
+	color: #96BB7C
+}
+
+.list-inline {
+	color : #A288A6;
+	list-style: none;
+	padding-left: 0px
+
+}
+
+.list-inline li {
+	display: inline;
+	padding : 10px;
+}
+
+.list-inline i {
+	font-size: 50px
+}
+
+.container {
+	width : 900px;
+	margin: 50px auto
+}
+
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px
+	}
+}
+
+.boxes {
+	padding: 10px
+
+}
+
+
